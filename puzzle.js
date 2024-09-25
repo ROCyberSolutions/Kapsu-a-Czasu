@@ -22,7 +22,7 @@ function checkStep2() {
     const answer = document.getElementById('step2Input').value.toLowerCase();
     if (answer === 'ciśnienie') {
         alert('Gratulacje! Przechodzisz dalej.');
-        // Dodaj kolejną zagadkę lub zakończ grę.
+        // Add next puzzle or end the game.
     } else {
         alert('Niepoprawna odpowiedź. Spróbuj ponownie.');
     }
