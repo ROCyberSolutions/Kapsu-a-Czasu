@@ -1,63 +1,44 @@
-/* General styles */
 body {
-    background-color: #111;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header */
-header {
-    background: linear-gradient(90deg, #ff00cc, #3333ff);
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
     font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #020024 0%, #090979 35%, #00d4ff 100%);
     color: #fff;
-    text-shadow: 0 0 15px #ff00cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
-/* Sections */
-section {
-    margin: 30px auto;
-    width: 80%;
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ff00cc;
-    box-shadow: 0 0 15px #ff00cc;
-}
-
-section h3 {
-    color: #ff00cc;
-    text-shadow: 0 0 5px #ff00cc;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ff00cc;
-    border-radius: 5px;
-    background-color: #222;
-    color: #fff;
-    box-shadow: 0 0 10px #ff00cc;
-}
-
-input[type="text"]::placeholder {
-    color: #ff00cc;
-}
-
-/* Footer */
-footer {
+.container {
     text-align: center;
-    padding: 10px 0;
-    background-color: #222;
 }
 
-footer p {
-    color: #666;
+h1 {
+    font-size: 4rem;
+    color: #00ff99;
+    text-shadow: 0 0 20px #00ff99;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    background: #00ff99;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00ff99;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #fff;
+    color: #00ff99;
+    box-shadow: 0 0 25px #00ff99, 0 0 35px #fff;
 }
