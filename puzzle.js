@@ -11,7 +11,7 @@ function checkStep1() {
 function loadNextStep() {
     const puzzleContainer = document.getElementById('puzzleContainer');
     puzzleContainer.innerHTML = `
-        <div class="puzzle-step">
+        <div class="puzzle-step animated-step">
             <p>„Jestem nieuchwytny jak wiatr, każdy mnie czuje, ale nikt mnie nie widzi. Podpowiedź: zaczynam się na 'C' i kończę na 'y.'"</p>
             <input type="text" id="step2Input" placeholder="Wprowadź odpowiedź">
             <button onclick="checkStep2()">Sprawdź</button>
