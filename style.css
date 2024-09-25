@@ -31,16 +31,6 @@ h1, h2 {
     font-size: 5rem;
     color: #00ff99;
     text-shadow: 0 0 20px #00ff99;
-    animation: neonGlow 2s ease-in-out infinite alternate;
-}
-
-@keyframes neonGlow {
-    from {
-        text-shadow: 0 0 20px #00ff99, 0 0 30px #00ff99, 0 0 40px #00ff99;
-    }
-    to {
-        text-shadow: 0 0 30px #00ff99, 0 0 40px #00ff99, 0 0 50px #00ff99;
-    }
 }
 
 button {
