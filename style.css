@@ -19,6 +19,12 @@ body {
 
 .container {
     text-align: center;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 h1, h2 {
